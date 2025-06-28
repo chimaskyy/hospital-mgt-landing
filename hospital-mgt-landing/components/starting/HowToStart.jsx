@@ -75,7 +75,7 @@ const HowToStartSection = () => {
 
             {/* Steps Grid */}
             <div className="grid grid-cols-3 gap-8 mb-12">
-              {steps.slice(0, 3).map((step, index) => (
+              {steps.slice(0, 3).map((step) => (
                 <div key={step.number} className="text-center">
                   <div className="relative mb-6">
                     <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 relative z-10">

@@ -1,11 +1,30 @@
 "use client";
 import Doctor from "@/asset/doctor.png"; // Adjust the path as necessary
+import Image from "next/image";
 import Link from "next/link";
 
 const HeroSection = ({ onShowSignUp }) => {
   return (
     <section className="relative bg-gradient-to-r from-blue-600 to-blue-800 text-white overflow-hidden ">
       {/* Background Image positioned to the right */}
+      <div className="md:hidden absolute inset-0 overflow-hidden">
+        <div className="absolute inset-0 bg-blue-900 opacity-10 z-10"></div>{" "}
+        {/* Overlay */}
+        <Image
+          src={Doctor}
+          alt="Healthcare Professional"
+          className="absolute md:right-12 h-full w-auto object-cover opacity-30" // Changed positioning
+        />
+      </div>
+      <div className="hidden md:block absolute inset-0 overflow-hidden">
+        <div className="absolute inset-0 bg-blue-900 opacity-10 z-10"></div>{" "}
+        {/* Overlay */}
+        <img
+          src="https://media.istockphoto.com/id/1299619779/photo/its-my-mission-to-guide-you-towards-better-health.webp?a=1&b=1&s=612x612&w=0&k=20&c=1VQzVQFP6wURcvfad0kBpOSNlt-M600iSY0_02abhlc="
+          alt="Healthcare Professional"
+          className="absolute md:right-12 h-full w-auto object-cover opacity-30" // Changed positioning
+        />
+      </div>
 
       <div className="relative max-w-8xl mx-auto px-4 sm:px-6 lg:px-32 py-10 lg:py-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -69,15 +88,6 @@ const HeroSection = ({ onShowSignUp }) => {
                 START FREE TRIAL
               </Link>
             </div>
-          </div>
-          <div className="absolute inset-0 overflow-hidden">
-            <div className="absolute inset-0 bg-blue-900 opacity-10 z-10"></div>{" "}
-            {/* Overlay */}
-            <img
-              src="https://media.istockphoto.com/id/2185352664/photo/black-woman-doctor-and-arms-crossed-in-portrait-at-clinic-with-pride-smile-and-services-with.webp?a=1&b=1&s=612x612&w=0&k=20&c=GfMcpCCJRzNTTcZAPXV56TSC7bUqNL4j93xT79Wn9kI=" // Try adding .src if using Next.js Image optimization
-              alt="Healthcare Professional"
-              className="absolute left-1/2 h-full w-auto object-cover opacity-30" // Changed positioning
-            />
           </div>
 
           {/* Made in EU Badge */}

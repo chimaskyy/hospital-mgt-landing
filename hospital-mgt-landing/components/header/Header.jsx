@@ -8,15 +8,15 @@ export default function Header({ onShowSignUp, onShowLogin }) {
 
   return (
     <header className="bg-white shadow-sm sticky top-0 z-40">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-32">
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <div className="flex items-center">
             <div className="w-8 h-8 bg-blue-600 rounded flex items-center justify-center mr-3">
               <div className="w-4 h-4 bg-white rounded-sm"></div>
             </div>
-            <h1 className="text-xl font-bold text-gray-900">
-              <span className="text-blue-600">HMS</span>
+            <h1 className="text-2xl font-bold text-orange-500">
+              Health<span className="text-blue-600">360</span>
             </h1>
           </div>
 
@@ -86,9 +86,9 @@ export default function Header({ onShowSignUp, onShowLogin }) {
             <Link
               href="https://hospital-mgt-seven.vercel.app/register"
               target="_blank"
-              className="text-gray-700 hover:text-blue-600 font-medium"
+              className="bg-orange-500 cursor-pointer hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg text-lg transition-colors duration-200"
             >
-              Log in
+              Get Started
             </Link>
             {/* <button
               onClick={onShowLogin}
@@ -138,12 +138,12 @@ export default function Header({ onShowSignUp, onShowLogin }) {
         {isMobileMenuOpen && (
           <div className="md:hidden py-4 border-t border-gray-200">
             <div className="space-y-4">
-              <a
+              {/* <a
                 href="#product"
                 className="block text-gray-700 hover:text-blue-600 font-medium"
               >
                 Product
-              </a>
+              </a> */}
               <a
                 href="#pricing"
                 className="block text-gray-700 hover:text-blue-600 font-medium"
@@ -163,18 +163,19 @@ export default function Header({ onShowSignUp, onShowLogin }) {
                 About
               </a>
               <div className="pt-4 space-y-2">
-                <button
-                  onClick={onShowLogin}
-                  className="block w-full text-left px-4 py-2 text-blue-600 hover:text-blue-800 font-medium border border-blue-600 rounded-md hover:bg-blue-50"
+                <Link
+                  href="https://hospital-mgt-seven.vercel.app/register"
+                  target="_blank"
+                  className="bg-orange-500 cursor-pointer hover:bg-orange-600 text-white font-bold py-4 px-4 rounded-lg text-lg transition-colors duration-200"
                 >
-                  LOG IN
-                </button>
-                <button
+                  Get Started
+                </Link>
+                {/* <button
                   onClick={onShowSignUp}
                   className="block w-full text-left px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 font-medium"
                 >
                   CONTACT SALES
-                </button>
+                </button> */}
               </div>
             </div>
           </div>

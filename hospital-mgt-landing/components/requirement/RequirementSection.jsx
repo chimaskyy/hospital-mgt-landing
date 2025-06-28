@@ -64,7 +64,7 @@ const RequirementsSection = () => {
 
   return (
     <section className="py-8 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-32">
         {/* Header */}
         <div className="text-center mb-12">
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
@@ -72,7 +72,7 @@ const RequirementsSection = () => {
           </h2>
           <div className="w-24 h-1 bg-blue-600 mx-auto mb-6"></div>
           <p className="text-lg text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            Our HMS delivers key advantages: efficient operations, enhanced
+            Our Hospital Management System (HMS) delivers key advantages: efficient operations, enhanced
             patient care, secure cloud access, and seamless integration -
             designed to modernize and elevate the healthcare experience.
           </p>

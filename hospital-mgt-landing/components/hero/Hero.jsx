@@ -6,23 +6,14 @@ const HeroSection = ({ onShowSignUp }) => {
   return (
     <section className="relative bg-gradient-to-r from-blue-600 to-blue-800 text-white overflow-hidden ">
       {/* Background Image positioned to the right */}
-      <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute inset-0 bg-blue-900 opacity-10 z-10"></div>{" "}
-        {/* Overlay */}
-        <img
-          src={Doctor.src} // Try adding .src if using Next.js Image optimization
-          alt="Healthcare Professional"
-          className="absolute right-0 h-full w-auto object-cover opacity-30" // Changed positioning
-        />
-      </div>
 
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-12">
+      <div className="relative max-w-8xl mx-auto px-4 sm:px-6 lg:px-32 py-10 lg:py-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <div className="space-y-8">
             <div>
               <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
-                HMS
+                Health360
               </h1>
               <h2 className="text-2xl lg:text-3xl font-semibold mt-2">
                 Hospital Management System
@@ -37,15 +28,15 @@ const HeroSection = ({ onShowSignUp }) => {
 
             <div className="border-t border-blue-400 pt-6">
               <p className="text-lg font-medium mb-4">
-                Sign up for a 7-day free trial and try it for yourself!
+                Sign up for a 14-day free trial and try it for yourself!
               </p>
 
               <div className="space-y-3">
                 <div className="flex items-center">
                   <div className="w-2 h-2 bg-orange-400 rounded-full mr-3"></div>
                   <span className="text-blue-100">
-                    Start using HMS now – no credit card or upfront payment
-                    required.
+                    Start using Health360 now – no credit card or upfront
+                    payment required.
                   </span>
                 </div>
                 <div className="flex items-center">
@@ -78,6 +69,15 @@ const HeroSection = ({ onShowSignUp }) => {
                 START FREE TRIAL
               </Link>
             </div>
+          </div>
+          <div className="absolute inset-0 overflow-hidden">
+            <div className="absolute inset-0 bg-blue-900 opacity-10 z-10"></div>{" "}
+            {/* Overlay */}
+            <img
+              src="https://media.istockphoto.com/id/2185352664/photo/black-woman-doctor-and-arms-crossed-in-portrait-at-clinic-with-pride-smile-and-services-with.webp?a=1&b=1&s=612x612&w=0&k=20&c=GfMcpCCJRzNTTcZAPXV56TSC7bUqNL4j93xT79Wn9kI=" // Try adding .src if using Next.js Image optimization
+              alt="Healthcare Professional"
+              className="absolute left-1/2 h-full w-auto object-cover opacity-30" // Changed positioning
+            />
           </div>
 
           {/* Made in EU Badge */}

@@ -27,36 +27,36 @@ const steps = [
     icon: "🎯",
     title: "Enjoy 7 days free trial",
     description:
-      "HMS doesn't require installation or upfront costs. You can use the system absolutely free to test how well it suits your clinic.",
+      "Health360 doesn't require installation or upfront costs. You can use the system absolutely free to test how well it suits your clinic.",
   },
   {
     number: 5,
     icon: "💳",
     title: "Make your first payment",
     description:
-      "HMS distributed on a software as a service model. Your credit card will be charged every months as long as you use HMS. You can cancel at any time.",
+      "Health360 distributed on a software as a service model. Your credit card will be charged every months as long as you use Health360. You can cancel at any time.",
   },
   {
     number: 6,
     icon: "📧",
     title: "Get regular updates and support",
     description:
-      "HMS provides frequent updates, new features, and fixes. You can always contact our support team directly within the system for assistance, ensuring your needs are our top priority.",
+      "Health360 provides frequent updates, new features, and fixes. You can always contact our support team directly within the system for assistance, ensuring your needs are our top priority.",
   },
 ];
 
 const HowToStartSection = () => {
   return (
     <section className="py-8 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-32">
         {/* Header */}
         <div className="text-center mb-12">
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-            HMS - how to start
+            Health360 - how to start
           </h2>
           <div className="w-24 h-1 bg-blue-600 mx-auto mb-6"></div>
           <p className="text-lg text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            Starting with HMS is effortless - no complex installations or
+            Starting with Health360 is effortless - no complex installations or
             lengthy setup processes. Simply register, complete a quick 10-minute
             onboarding, and your clinic is ready to operate. Our user-friendly
             interface ensures your team can quickly adapt, allowing you to
@@ -155,7 +155,7 @@ const HowToStartSection = () => {
             </h3>
             <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
               Join thousands of healthcare providers who have already
-              transformed their operations with HMS.
+              transformed their operations with Health360.
             </p>
             <Link
               href="https://hospital-mgt-seven.vercel.app/register"

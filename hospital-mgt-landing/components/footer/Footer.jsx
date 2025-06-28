@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-32 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="md:col-span-1">
@@ -10,7 +10,7 @@ export default function Footer() {
                 <div className="w-4 h-4 bg-white rounded-sm"></div>
               </div>
               <h3 className="text-xl font-bold">
-              <span className="text-blue-400">HMS</span>
+              <span className="text-blue-400">Health360</span>
               </h3>
             </div>
             <p className="text-gray-400 leading-relaxed">
@@ -29,7 +29,7 @@ export default function Footer() {
                     ))}
                   </div>
                 </div>
-                <span>Made in EU</span>
+                {/* <span>Made in EU</span> */}
               </div>
             </div>
           </div>
@@ -53,7 +53,7 @@ export default function Footer() {
                   Security
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#" className="hover:text-white transition-colors">
                   Integrations
                 </a>
@@ -62,7 +62,7 @@ export default function Footer() {
                 <a href="#" className="hover:text-white transition-colors">
                   API
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
 
@@ -75,7 +75,7 @@ export default function Footer() {
                   Help Center
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#" className="hover:text-white transition-colors">
                   Documentation
                 </a>
@@ -84,17 +84,17 @@ export default function Footer() {
                 <a href="#" className="hover:text-white transition-colors">
                   Training
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a href="#" className="hover:text-white transition-colors">
                   Contact Support
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#" className="hover:text-white transition-colors">
                   System Status
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
 
@@ -112,12 +112,12 @@ export default function Footer() {
                   Careers
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#" className="hover:text-white transition-colors">
                   Blog
                 </a>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <a href="#" className="hover:text-white transition-colors">
                   Press
                 </a>
@@ -126,7 +126,7 @@ export default function Footer() {
                 <a href="#" className="hover:text-white transition-colors">
                   Partners
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
@@ -141,15 +141,13 @@ export default function Footer() {
               <a href="#" className="hover:text-white transition-colors">
                 Terms of Service
               </a>
-              <a href="#" className="hover:text-white transition-colors">
+              {/* <a href="#" className="hover:text-white transition-colors">
                 Cookie Policy
-              </a>
-              <a href="#" className="hover:text-white transition-colors">
-                GDPR
-              </a>
+              </a> */}
+              
             </div>
             <div className="text-sm text-gray-400">
-              © {new Date().getFullYear()} HMS. All rights reserved.
+              © {new Date().getFullYear()} Health360. All rights reserved.
             </div>
           </div>
         </div>

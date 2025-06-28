@@ -1,14 +1,14 @@
 const TargetAudienceSection = () => {
   return (
     <section className="py-16 lg:py-24 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-32">
         <div className="text-center mb-12">
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
             HMS for health facilities of all sizes and specialties
           </h2>
           <div className="w-24 h-1 bg-blue-600 mx-auto mb-6"></div>
           <p className="text-lg text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            Use the hospital management system built to cover the varying needs
+            Use the Hospital Management System (HMS) built to cover the varying needs
             of numerous specialties in both large clinic chains and individual
             practices run by solo practitioners.
           </p>
@@ -38,7 +38,7 @@ const TargetAudienceSection = () => {
             </div>
 
             <p className="text-gray-600 mb-8 leading-relaxed">
-              Choose HMS to support the diverse and growing healthcare needs in
+              Choose Health360 to support the diverse and growing healthcare needs in
               large and small hospitals, public and private clinics, dentistry,
               beauty medical clinics, etc.
             </p>
